@@ -1,0 +1,44 @@
+*{
+    margin: 3px;
+}
+
+/*Selector de todos los elementos <h2>.*/
+h2{
+    color:mediumvioletred;
+    font-style: italic;
+}
+/*Selector del primer elemento <h2>*/
+h2:nth-child(1){
+    color:aquamarine;
+    font-style: italic;
+}
+/*Selector del último elemento <h2>*/
+h2:nth-last-of-type(1){
+    color: dimgray;
+    font-style: italic;
+}
+/*Selector del elemento con identificador #principal*/
+#principal{
+    color: rebeccapurple;
+    font-weight: bolder;
+}
+/*Selector de los elementos <h2> que son descendientes de los elementos con identificador #principal*/
+#principal h2{
+    color: rgb(223, 19, 19);
+    font-style:normal;
+}
+/*Selector de los elementos de la clase .Articulo.*/
+.Articulo{
+    border-style: dotted;
+    padding: 1em;
+}
+/*Selector de los elementos <h2> que son descendientes de los elementos de la clase .Articulo*/
+.Articulo h2 {
+    color: rgb(245, 216, 216);
+    font-style:normal;
+}
+/*Selector del último hijo de los elementos <article> que son descendientes del elemento con identificador #secundario*/
+#secundario article:last-child{
+    color: rgb(12, 1, 1);
+    font-style:normal;
+}
