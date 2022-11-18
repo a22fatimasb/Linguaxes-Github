@@ -1,0 +1,21 @@
+h1, h2 {
+
+    font-size: larger;
+    font-family: fantasy;
+}
+
+p {
+    font-size: 1.5em;
+    color: #888888;
+}
+
+.selector{
+    color: cadetblue;
+
+}
+
+.destaca{
+    font-style: italic;
+    font-weight: bolder;
+    color: darkviolet;
+}
