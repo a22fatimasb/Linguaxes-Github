@@ -1,0 +1,49 @@
+
+#titulo{
+    color:teal;
+    font-size:xx-large;
+}
+
+p>strong{
+    color: red;
+    font-weight: bold;
+    
+}
+#subtitulo{
+    color: blue;
+    font-size:x-large;
+}
+p> a, tfoot{
+    color: red;
+}
+table> caption, p> a> em{
+    color: blue;
+}
+p>a+.especial{
+    color: purple;
+}
+#adicional{
+    color: olive;
+}
+#especial{
+    color: fuchsia;
+}
+td, a:last-of-type{
+    color: green;
+}
+.destacado, td >strong{
+    color: orange
+}
+
+table, th, td{
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+}
+table>thead, .especial{
+    color: orange;
+}
+tbody>tr:last-of-type>th{
+    color: red;
+}
