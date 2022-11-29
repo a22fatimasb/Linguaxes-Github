@@ -1,0 +1,119 @@
+#contenedor {
+  width: 700px;
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li:not(:last-child):hover {
+  background-color: #ff9;
+}
+
+
+
+ul li:hover .ayuda {
+  visibility: visible;
+}
+
+ul li input:focus {
+  outline: 4px solid #e6b700;
+}
+
+h2 {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+
+ul li > div {
+  flex: 1;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  list-style: none;
+  border: 1px solid;
+  border-color: black transparent transparent;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.titulo {
+  text-align: right;
+  font-weight: bold;
+  font-size: medium;
+  width: 100px;
+  margin-right: 20px;
+
+}
+
+#alta {
+  margin-left: auto;
+  border: outset;
+  font-size: medium;
+}
+
+.ayuda {
+  width: 180px;
+  margin: 0;
+  visibility: hidden;
+}
+
+.requerido {
+  color: red;
+}
+
+ul li > div span {
+  display: inline-block;
+}
+
+label {
+  font-size: 0.8em;
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+input, select {
+  vertical-align: bottom;
+  position: relative;
+  box-sizing: border-box;
+  height: 24px;
+  /* margin-top: 10px; */
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+#nombre,
+#telefonomovil,
+#telefonofijo,
+#municipio,
+#pais {
+  width: 150px;
+  margin-right: 30px; 
+}
+
+#apellido1,
+#apellido2,
+#direccion,
+#email {
+  width: 250px;
+  
+}
+#direccion, #email{
+  margin-right: 30px;
+}
+
+#codigopostal,
+#provincia {
+  width: 80px;
+  margin-right: 30px;
+}

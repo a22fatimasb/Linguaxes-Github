@@ -1,0 +1,17 @@
+a {
+  margin: 1em 0;
+  float: left;
+  clear: left;
+  padding: 2px;
+  color: #cc0000;
+}
+
+/* color del texto enlace cuando el puntero del raton esta sobre él */
+a:hover {
+  background-color: #cc0000;
+  color: #fff;
+}
+/* color del texto enlace cuando ya ha sido visitado */
+a:visited {
+  color: #ccc;
+}

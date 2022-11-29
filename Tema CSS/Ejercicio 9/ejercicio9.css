@@ -1,0 +1,12 @@
+#galeria {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  position: relative;
+  place-content: center;
+  margin-top: 10%;
+}
+img{
+    border: 2px solid grey;
+    padding: 2px;
+}
