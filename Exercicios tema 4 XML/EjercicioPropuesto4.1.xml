@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viaje_turisitico>
+    <cliente>
+        <nombre>Fátima</nombre>
+        <apellidos>Sánchez Blanco</apellidos>
+    </cliente>
+    <fecha_inicio>09/01/2023</fecha_inicio>
+    <fecha_fin>20/01/2023</fecha_fin>
+    <origen_viaje>Santiago de Compostela</origen_viaje>
+    <destinos>
+        <destino>
+            <nombre_ciudad>Valencia</nombre_ciudad>
+            <nombre_hotel>HM Hostal Valencia</nombre_hotel>
+            <numero_noches>5</numero_noches>
+        </destino>
+        <destino>
+            <nombre_ciudad>Murcia</nombre_ciudad>
+            <nombre_hotel>HM Hostal Murcia</nombre_hotel>
+            <numero_noches>6</numero_noches>
+        </destino>
+    </destinos>
+    <precio>540 euros</precio>
+</viaje_turisitico>
